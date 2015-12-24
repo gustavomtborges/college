@@ -1860,6 +1860,12 @@
 
 	#header {
 		position: relative;
+		background-image: url(../../images/logo-college.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: #fff;		
+		border-radius: 6px;
+		height: 220px;
 	}
 
 /* Logo */
@@ -1894,7 +1900,7 @@
 	#nav {
 		position: absolute;
 		right: 0;
-		top: 0;
+		top: -2.9em;
 		font-size: 0.9em;
 	}
 
@@ -1994,11 +2000,7 @@
 
 /* Banner */
 
-	#banner {
-		background-image: url(../../images/logo-college.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-color: #aaa
+	#banner {			
 		position: relative;
 		padding: 5.7em;
 	}
@@ -2165,19 +2167,21 @@
 
 		/* Wrappers */
 
-			#header-wrapper {
+			#header-wrapper {				
 				padding: 3em 0 1em 0;
 				text-align: center;
 			}
 
-			#footer-wrapper {
+			#footer-wrapper {				
 				padding: 6em 0 4em 0;
 			}
 
 		/* Header */
 
 			#header {
-				margin: 0 auto;
+			background-image: url(../../images/logo-college.png);
+			background-color: #fff;				
+				margin: 0 auto;				
 			}
 
 		/* Logo */
